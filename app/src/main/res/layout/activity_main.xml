@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.weatherbeprepared.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <!-- *********************************************
+                            W H E R E
+             ********************************************* -->
+        <Button
+            android:id="@+id/butt_where"
+            style="@style/Buttons"
+            android:onClick="buttonClicked"
+            android:text="Know where you are" />
+
+        <LinearLayout
+            android:id="@+id/layout_where"
+            style="@style/Layouts"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/weathermap2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_where" />
+
+        </LinearLayout>
+
+        <!-- *********************************************
+                         T E R M I N O L O G Y
+             ********************************************* -->
+        <Button
+            android:id="@+id/butt_term"
+            style="@style/Buttons"
+            android:onClick="buttonClicked"
+            android:text="Understand terminology" />
+
+        <LinearLayout
+            android:id="@+id/layout_term"
+            style="@style/Layouts"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/weatherdesc5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextTerminology"
+                    android:text="@string/text_watch" />
+
+                <TextView
+                    style="@style/TextTerminologySeparator" />
+
+                <TextView
+                    style="@style/TextTerminology"
+                    android:text="@string/text_advisory" />
+
+                <TextView
+                    style="@style/TextTerminologySeparator" />
+
+                <TextView
+                    style="@style/TextTerminology"
+                    android:text="@string/text_warning" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- *********************************************
+                           P L A N N I N G
+             ********************************************* -->
+        <Button
+            android:id="@+id/butt_plan"
+            style="@style/Buttons"
+            android:onClick="buttonClicked"
+            android:text="Planning" />
+
+        <LinearLayout
+            android:id="@+id/layout_plan"
+            style="@style/Layouts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview_plan"
+                style="@style/TextPlanText"
+                android:text="@string/text_plan" />
+
+            <!-- The plan buttons are added in code -->
+
+        </LinearLayout>
+
+        <!-- *********************************************
+                I N F O R M A T I O N    S O U R C E S
+             ********************************************* -->
+        <Button
+            android:id="@+id/butt_source"
+            style="@style/Buttons"
+            android:onClick="buttonClicked"
+            android:text="Information sources" />
+
+        <LinearLayout
+            android:id="@+id/layout_source"
+            style="@style/Layouts"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@android:color/white">
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/radioIcon"
+                    style="@style/ImageSourceRelative"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/radio"/>
+
+                <ImageView
+                    android:id="@+id/cellIcon"
+                    style="@style/ImageSourceRelative"
+                    android:layout_below="@id/radioIcon"
+                    android:src="@drawable/cellphone"/>
+
+                <ImageView
+                    android:id="@+id/internetIcon"
+                    style="@style/ImageSourceRelative"
+                    android:layout_below="@id/cellIcon"
+                    android:src="@drawable/internet"/>
+
+                <ImageView
+                    android:id="@+id/tvIcon"
+                    style="@style/ImageSourceRelative"
+                    android:layout_below="@id/internetIcon"
+                    android:src="@drawable/tv"/>
+
+                <ImageView
+                    android:id="@+id/noaaIcon"
+                    style="@style/ImageSourceRelative"
+                    android:layout_below="@id/tvIcon"
+                    android:src="@drawable/noaa"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_source" />
+
+        </LinearLayout>
+
+        <!-- *********************************************
+                       R E A L    O R    J U N K
+             ********************************************* -->
+        <Button
+            android:id="@+id/butt_real"
+            style="@style/Buttons"
+            android:onClick="buttonClicked"
+            android:text="Know what's real and what isn't" />
+
+        <LinearLayout
+            android:id="@+id/layout_real"
+            style="@style/Layouts"
+            android:orientation="vertical">
+
+            <VideoView
+                android:id="@+id/video_real"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_real" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

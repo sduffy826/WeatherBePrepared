@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Weather - Be Prepared</string>
+    <string name="text_where">Know where
+        you are without being told.  If you are looking at a map (like one shown
+        by a weather reporter) do you know where you are.  You should also know the town/city,
+        county and state you are in.  Many news reports address counties affected, know that...
+        it could save your life.
+    </string>
+    <string name="text_plan">You need to plan
+        for the unexpected, check off the items as you collect them.
+    </string>
+    <string name="text_source">There are many sources
+        of information.  You probably have heard the emergency alerts
+        on your cell phone.  It is also common to get severe weather alerts on cell phones, but
+        it is not a good idea to rely on only one method.  Cell service can go
+        down in a disaster, warnings through apps can be delayed, and your battery can only last
+        so long if the power is out.
+        \n
+        \nMake sure you have several additional ways to receive urgent weather alerts, whether it’s
+        through cell phones, battery-operated NOAA Weather Radios, television, FM/AM radio, or the
+        internet.
+        \n
+        \nA NOAA Weather Radio is your best back-up for weather forecasts and severe weather
+        warnings. Modern devices can be programmed with your county’s unique, six-digit S.A.M.E.
+        code that allows the device to automatically sound a loud siren when a watch or warning is
+        issued for your county. These devices have saved lives, and even if you are glued to your
+        phone, it\'s a great layer of additional security.
+        \n
+        \nUsing several methods to receive urgent weather information lessens the chance that
+        you’ll miss a potentially life-saving alert
+    </string>
+    <string name="text_real">Not
+        all weather forecasts are equal. Many forecasts issued by professionals are pretty
+        accurate—if you get your weather from The Weather Channel, the National Weather Service,
+        your local news station, or even an outlet like AccuWeather, it’s a safe bet that what you
+        see is pretty close to what will happen.
+        \n\nDon\'t always trust the news you get from the internet, would you trust this?
+    </string>
+
+    <!-- Definitions for Watch/Warning/Advisory -->
+    <string name="text_watch"><b>Watch</b> means that bad weather could happen soon, usually within
+        the next couple of hours
+    </string>
+    <string name="text_warning"><b>Warning</b> means that bad weather is occurring or imminent,
+        meaning that it is happening or will happen within the next hour or so, and you need to
+        take immediate action to ensure your safety.
+    </string>
+    <string name="text_advisory"><b>Advisory</b> - The expected weather condition has a pretty
+        good chance of occurring, even a likely chance of occurring, but typically an advisory is
+        used for less severe type of weather conditions.
+    </string>
+
+    <!-- Code will search for all strings nameed 'planCB*', it will make them checkboxes within
+         the layout plan section                                                                -->
+    <string name="planCB01">
+      Water, one gallon of water per person per day (at least 3 days)
+    </string>
+
+    <string name="planCB02">
+      Food, at least a three-day supply of non-perishable food
+    </string>
+
+    <string name="planCB03">
+      Battery-powered or hand crank radio Extra batteries for both
+    </string>
+
+    <string name="planCB04">
+      Flashlight and extra batteries
+    </string>
+
+    <string name="planCB05">
+      First aid kit
+    </string>
+
+    <string name="planCB06">
+      Whistle to signal for help
+    </string>
+
+    <string name="planCB07">
+      Dust mask to help filter contaminated air
+    </string>
+
+    <string name="planCB08">
+      Plastic sheeting and duct tape to shelter-in-place
+    </string>
+
+    <string name="planCB09">
+      Moist towelettes, garbage bags and plastic ties for personal sanitation
+    </string>
+
+    <string name="planCB10">
+      Wrench or pliers to turn off utilities
+    </string>
+
+    <string name="planCB11">
+      Manual can opener for food
+    </string>
+
+    <string name="planCB12">
+      Local maps
+    </string>
+
+    <string name="planCB13">
+      Cell phone with chargers, inverter or solar charger
+    </string>
+</resources>
