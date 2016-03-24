@@ -160,7 +160,9 @@ public class MainActivity extends AppCompatActivity {
               if (checkBox.isChecked()){
                 planButtonsChecked++;
               }
-              else { planButtonsChecked--; }
+              else {
+                  planButtonsChecked--;
+              }
 
               int redColor = (int) ((255.0 / viewsCount) * (viewsCount - planButtonsChecked));
               int greenColor = (int) ((255.0 / viewsCount) * planButtonsChecked);
